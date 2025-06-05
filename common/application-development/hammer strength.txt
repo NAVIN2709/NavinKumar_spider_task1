@@ -1,1 +1,2 @@
-
+Create an interactive fairground-style "Hammer Strength Test" game where
+players aim for precision and timing.

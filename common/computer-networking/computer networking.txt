@@ -1,1 +1,38 @@
+1.What types of traffic (HTTP, DNS, FTP, etc.) are present?
+DNS,HTTP,TCP
 
+2.How many DNS queries were made ?
+764
+
+3.What types of DNS queries were made ?
+DNS queries are standard queries like A,AAAA,HTTPS.
+
+4.What is the Loopback interface ?
+A loopback interface is a virtual network interface used primarily for testing and
+internal communication on a device. It allows the machine to communicate with
+itself.
+
+5.How many .txt files were requested ?List their names.
+There are 3 .txt files. They are
+1)encoded.txt
+2)decoy1.txt
+3)decoy2.txt
+
+6.One .txt file contains a base64 string. Identify the file and decode the string.
+The .txt file is encoded.txt .
+The converted string is FLAG{spid3r_network_master}
+
+7.Was there any attempt made to distract analyst using decoy files ?
+Yes, there was an attempt as there is a .txt file named decoy1 and decoy2 which
+contains
+'This is just a decoy.'
+
+8.Are there any known ports being used for uncommon services?
+No, as there are only 2 ports used
+
+9.How many HTTP GET requests are visible ?
+There are 3 HTTP GET requests.
+
+10.What User-Agent was used to make the HTTP requests?
+A Python server was used to make HTTP requests.
+(SimpleHTTP/0.6 Python/3.12.3)
